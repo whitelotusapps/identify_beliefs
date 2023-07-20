@@ -541,20 +541,6 @@ def count_word_matches(data):
     return sorted_counts
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 for filename in os.listdir('./Sandbox/TXT'):
     os.system('clear')
     #####################################################################################################################################
@@ -609,9 +595,3 @@ for filename in os.listdir('./Sandbox/TXT'):
 
 #    print(f'BELIEFS:\n {json.dumps(find_beliefs(json_data["text"]), indent=4)}')
     #print(f'QUESTIONS:\n {json.dumps(find_questions(json_data["text"]), indent=4)}')
-
-
-
-
-#               LOOK UP THE SENTIMENT AND PROCESS THAT - THOSE ARE ALREADY SENTENCES 
-#               * AND YOU WILL HAVE ADDITIONAL DATA *
