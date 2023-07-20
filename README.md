@@ -16,7 +16,7 @@ Medium
 
 ## Usage
 
-The main thing to ensure is that the script know where to pull the text data to analyze. In the code you made see references to the below folder locations:
+The main thing to ensure is that the script knows where to pull the text data to analyze. In the code you made see references to the below folder locations:
 
 ```
 ./Sandbox/CLEAN_UP
