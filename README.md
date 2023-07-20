@@ -14,6 +14,20 @@ Medium
 * `identify_idioms_and_beliefs_write_files.py` is meant to write the belief data to output files without displaying the content to the screen
 * `identify_idioms_and_beliefs.py` this is the original script, and is much like the `identify_idioms_and_beliefs_npyscreen.py` and `identify_idioms_and_beliefs_text_files.py` scripts. This script is meant to read in AssemblyAI JSON files and display the beliefs on the screen, without the use of a menu to select the file to be processed.
 
+## Usage
+
+The main thing to ensure is that the script know where to pull the text data to analyze. In the code you made see references to the below folder locations:
+
+```
+./Sandbox/CLEAN_UP
+./Sandbox/TXT
+./Sandbox/JSON_sed
+```
+
+The `./Sandbox/TXT` location is where plain text files are located. If you have text files that are just plain text, then change the folder location in the script to point to that folder.
+
+Instances of where `./Sandbox/CLEAN_UP` or `./Sandbox/JSON_sed` are where AssemblyAI JSON output files are stored. If you have AssemblyAI JSON output files, change the location to where your files are located.
+
 ## Example Output
 
 ### Actions
