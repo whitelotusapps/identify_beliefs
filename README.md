@@ -12,7 +12,7 @@ Medium
 
 # Requirements
 
-As of 2023-07-21, the code is expecting the files to have a specific file naming convention:
+1. As of 2023-07-21, the code is expecting the files to have a specific file naming convention:
 
 `YYYY-mmm-dd - HH-mm-ss`
 
@@ -23,6 +23,8 @@ For example:
 ```
 
 * The `YYYY-mmm-dd - HH-mm-ss` format is what the script is looking for to determine the date and time of the transcript. Overall, this is not necessary for identifying beliefs and will be removed from future versions of the code.
+
+2. The `my_words.txt` file is required. This is a list of words that mean something to the person who is having their beliefs analyzed. This is a personal lexicon/idiolect. Words and phrases that have a specific, impactful meaning to the individual being analyzed go into this file.
 
 ## Script variants
 
