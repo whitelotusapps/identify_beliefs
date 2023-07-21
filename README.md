@@ -6,7 +6,7 @@ You can read about these scripts from the below articles, they are the same arti
 LinkedIn:
 [So, You Want to Be a Data Scientist, Huh? Pub: 2](https://www.linkedin.com/pulse/so-you-want-data-scientist-huh-pub-2-zack-olinger/)
 
-Medium 
+Medium
 [So, You Want to Be a Data Scientist, Huh? Part 2](https://medium.com/@therealzackolinger/so-you-want-to-be-a-data-scientist-huh-9a3d63f16f96)
 
 * `identify_idioms_and_beliefs_npyscreen.py` is a terminal menu driven version of this script; it will provide a list of AssemblyAI JSON files to process beliefs from.
