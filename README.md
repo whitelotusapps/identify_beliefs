@@ -14,13 +14,15 @@ Medium
 
 As of 2023-07-21, the code is expecting the files to have a specific file naming convention:
 
-YYYY-mmm-dd - HH-mm-ss
+`YYYY-mmm-dd - HH-mm-ss`
 
 For example:
 
 ```
 2021-03-10 - 02-14-00 - audio journal.json
 ```
+
+* The `YYYY-mmm-dd - HH-mm-ss` format is what the script is looking for to determine the date and time of the transcript. Overall, this is not necessary for identifying beliefs and will be removed from future versions of the code.
 
 ## Script variants
 
