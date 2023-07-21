@@ -9,11 +9,28 @@ LinkedIn:
 Medium
 [So, You Want to Be a Data Scientist, Huh? Part 2](https://medium.com/@therealzackolinger/so-you-want-to-be-a-data-scientist-huh-9a3d63f16f96)
 
-* `identify_idioms_and_beliefs_npyscreen.py` is a terminal menu driven version of this script; it will provide a list of AssemblyAI JSON files to process beliefs from.
-* `identify_idioms_and_beliefs_text_files.py` does not contain a menu, and is meant to ready only the raw text transcription and displays the output to the terminal. This version can be used on ANY text transcription, not just AssemblyAI.
-* `identify_idioms_and_beliefs_write_files.py` is meant to write the belief data to output files without displaying the content to the screen
-* `identify_idioms_and_beliefs.py` this is the original script, and is much like the `identify_idioms_and_beliefs_npyscreen.py` and `identify_idioms_and_beliefs_text_files.py` scripts. This script is meant to read in AssemblyAI JSON files and display the beliefs on the screen, without the use of a menu to select the file to be processed.
 
+# Requirements
+
+As of 2023-07-21, the code is expecting the files to have a specific file naming convention:
+
+YYYY-mmm-dd - HH-mm-ss
+
+For example:
+
+```
+2021-03-10 - 02-14-00 - audio journal.json
+```
+
+## Script variants
+
+* `identify_idioms_and_beliefs_npyscreen.py` is a terminal menu driven version of this script; it will provide a list of AssemblyAI JSON files to process beliefs from.
+
+* `identify_idioms_and_beliefs_text_files.py` does not contain a menu, and is meant to ready only the raw text transcription and displays the output to the terminal. This version can be used on ANY text transcription, not just AssemblyAI.
+
+* `identify_idioms_and_beliefs_write_files.py` is meant to write the belief data to output files without displaying the content to the screen
+
+* `identify_idioms_and_beliefs.py` this is the original script, and is much like the `identify_idioms_and_beliefs_npyscreen.py` and `identify_idioms_and_beliefs_text_files.py` scripts. This script is meant to read in AssemblyAI JSON files and display the beliefs on the screen, without the use of a menu to select the file to be processed.
 ## Usage
 
 The main thing to ensure is that the script knows where to pull the text data to analyze. In the code you made see references to the below folder locations:
